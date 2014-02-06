@@ -4,6 +4,8 @@
 
 * Use the MVC pattern in web applications with proper allocation of code and
   responsibilities to each layer
+* Incorporate third-party gems into a web application using bundler
+* Extend the Sinatra application environment with a ruby gem
 * Use a third-party API
 * Implement OAuth
 
