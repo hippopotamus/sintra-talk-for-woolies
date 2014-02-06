@@ -2,6 +2,12 @@
 
 ## Learning Competencies
 
+* Incorporate third-party gems into a web application using bundler
+* Extend the Sinatra application environment with a ruby gem
+* Use AJAX and “long-polling” in a browser to wait for a specific condition on the web application server
+* Use a third-party API
+* Implement OAuth
+
 ## Summary
 
 We're going to build on Recent Tweets 1 to learn how front-end and back-end can
