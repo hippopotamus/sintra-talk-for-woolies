@@ -51,7 +51,7 @@ is a standardized authentication protocol that allows a web application to
 delegate authentication to a third-party, e.g., "Log in via Twitter," "Log in
 via Facebook," "Log in via Google," etc.
 
-We don't be supporting "Log in via Twitter" yet, so when you go to create a
+We won't be supporting "Log in via Twitter" yet, so when you go to create a
 Twitter application the only fields that matter are the **application name**
 (which must be unique across all Twitter applications) and **application
 description**.  The application URL can be anything and the callback URL can be
