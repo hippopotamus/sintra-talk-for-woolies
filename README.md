@@ -43,6 +43,21 @@ bundle install
 to install the Gem.  Read the **Configuration** section on the Twitter gem's
 GitHub page.
 
+You'll be using the [REST::Client](http://rdoc.info/gems/twitter/Twitter/REST/Client) for this challenge. Here's how to instantiate a new client:
+
+```ruby
+client = Twitter::REST::Client.new do |config|
+  config.consumer_key        = "YOUR_CONSUMER_KEY"
+  config.consumer_secret     = "YOUR_CONSUMER_SECRET"
+  config.access_token        = "YOUR_ACCESS_TOKEN"
+  config.access_token_secret = "YOUR_ACCESS_SECRET"
+end
+```
+
+Note that you'll need 4 tokens to create a new client. The consumer key & secret identify are unique to the application you're building. The access token & secret are associated with a particular user.
+
+For this challenge, the access tokens are associated with whichever user you're signed in as when you request the tokens from the Twitter developer page. So you'll be communicating with the Twitter API 'as' that user, through your Ruby application.
+
 You'll have to register a Twitter application on Twitter and get an API key and
 API secret.  You can do this at the [Twitter app registry][twitter app registry].
 
