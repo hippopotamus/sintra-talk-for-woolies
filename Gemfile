@@ -30,5 +30,4 @@ end
 group :test, :development do
   gem 'rspec'
   gem 'factory_girl'
-  gem 'faker'
 end
