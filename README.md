@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Recent Tweets 2
 
 ## Learning Competencies
@@ -69,3 +70,9 @@ where possible and graceful where it's not possible to be quick.
 
 [spinner gif]: http://www.ajaxload.info/
 [view partials]: http://www.sinatrarb.com/faq.html#partials
+=======
+sinatra-skeleton
+================
+
+a sinatra skeleton in the theme of rails
+>>>>>>> d6c03e5fa3980078dce68cb2bb508b5b70749575
