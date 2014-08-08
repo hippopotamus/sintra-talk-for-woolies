@@ -1,6 +1,6 @@
 get '/dictators/new' do
   @dictator = Dictator.new
-  erb :'/dictators/new'
+  erb :'dictators/new'
 end
 
 post '/dictators/create' do
@@ -10,7 +10,7 @@ post '/dictators/create' do
     redirect '/dictators'
   else
     @errors = @dictator.errors
-    erb :'/dictators/new'
+    erb :'dictators/new'
   end
 end
 
@@ -27,12 +27,11 @@ end
 put '/dictators/:did' do
   @dictator = Dictator.find(params[:did])
   @dictator.update(params[:dictator])
-  if @dictator.valid?
 end
 
 get '/dictators/:did/edit' do
   @dictator = Dictator.find(params[:did])
-  erb :'/dictators/edit'
+  erb :'dictators/edit'
 end
 
 delete '/dictators/:did' do
