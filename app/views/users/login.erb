@@ -1,0 +1,15 @@
+<%= session[:user_id] if session[:user_id] %>
+
+<% if @errors %>
+  <% @errors.each do |error| %>
+    <%= error %>
+  <% end %>
+<% end %>
+<% @route = 'login' %>
+<p>login</p>
+<%= erb :'users/_form'  %>
+
+<p>signup</p>
+
+<% @route = 'signup' %>
+<%= erb :'users/_form'  %>
